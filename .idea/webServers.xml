@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="430b3c8d-db6f-491a-8d92-304a1d6db34f" name="服务器" url="http://180.178.56.50">
+        <fileTransfer host="180.178.56.50" port="22" rootFolder="/data" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" muteSftpMessages="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a7ab1059-bfdb-4f79-9440-f0cf41f914d9" name="服务器文件传输" url="http://180.178.56.51">
+        <fileTransfer host="180.178.56.51" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
